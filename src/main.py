@@ -14,8 +14,12 @@ if __name__ == '__main__':
         'bchk_condition': lambda bchk_set: [1 if x[0] > 0 else 0 for x in bchk_set],
         'test_sample_size': 0.2
     }
-    # tp1(**args_tp1)
+   
+    print("TP 1\n")
+    tp1(**args_tp1)
 
+
+    print("\n\n\nTP 2\n")
     args_tp2 = {
         'dataset_filename': "data/spam_train.csv"
     }

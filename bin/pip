@@ -1,4 +1,4 @@
-#!/home/adam-aquesbi/Documents/personal/studies/FR/EFREI/Classes/S8/data_ai/data-science-efrei-csm4/bin/python
+#!/home/adam-aquesbi/Documents/personal/studies/FR/EFREI/Classes/S8/data_ai/data-science-efrei-csm4/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
