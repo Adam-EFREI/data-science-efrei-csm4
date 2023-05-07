@@ -33,7 +33,7 @@ def model_trainer(dataset, x_var: str, algorithm: Callable, **kwargs):
         model.fit(X_train, y_train)
 
         y_pred = model.predict(X_test)
-        accuracy = model.score(y_pred, y_test)
+        accuracy = model.score(X_test, y_test)
 
     except Exception as e:
         raise e
